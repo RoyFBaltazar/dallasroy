@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0%;
+border: 1px deepskyblue;
+}
+.myheader{    
+    border: solid yellowgreen 10px;
+    padding: 5px;
+    background-color: darkolivegreen;
+}
+.myaboutme{
+    border: solid indigo 10px;
+    padding: 5px;
+    background-color: darkred;
+
+}
+.firstimg{
+    border: solid yellow10px;
+    background-color: white;
+}
+.myresume{
+    border: solid violet 10px;
+    padding: 5px;
+    background-color: wheat;
+}
+.myvideo {
+    border: solid pink 10px;
+    padding: 5px;
+    background-color: orangered;
+}
+.contactform{
+    border: solid navy 10px;
+    background-color: rgb(255, 173, 20);
+}
+.myfooter{
+    border: solid rgb(17, 20, 10) 10px;
+    padding: 5px;
+    background-color: purple;
+}
