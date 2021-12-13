@@ -8,27 +8,39 @@ border: 1px deepskyblue;
     border: solid yellowgreen 10px;
     padding: 5px;
     background-color: darkolivegreen;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-grow: 4;
+   flex-flow: column wrap;
+
 }
-.myaboutme{
+.headerimg {background-color: khaki;
+ flex-grow: 1;
+ justify-content: center;
+}
+#myaboutme{
     border: solid indigo 10px;
     padding: 5px;
     background-color: darkred;
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: center;
+    color: palegreen;
 
 }
 .firstimg{
     border: solid yellow10px;
     background-color: white;
-    float: right;
-
+ float: left;
+    padding: .10in;
 }
-.myresume{
+#myresume{
     border: solid violet 10px;
     padding: 5px;
     background-color: wheat;
-    font-size: 20px;
+    font-size:;
     text-align: left;
+    color: plum;
 }
 .myvideo {
     border: solid pink 10px;
@@ -40,7 +52,10 @@ border: 1px deepskyblue;
     background-color: rgb(255, 173, 20)
     ;
     float: right;
-
+    padding-right: 2ch;
+min-height: 20px;
+min-height: 20px;
+color: red;
 }
 
 .myfooter{
@@ -48,8 +63,80 @@ border: 1px deepskyblue;
     padding: 5px;
     background-color: purple;
 }
-.contactform:focus {
- type="button"
-    background-color: orange;
-    color: orangered;
+.contactform input[type=button]:hover{
+ border: solid;
+ background-color: seagreen;
 }
+.contactform input[type=text]:hover{
+    border: solid;
+    background-color: seagreen;
+   }
+   .contactform input[type=email]:hover{
+    border: solid;
+    background-color: seagreen;
+   }
+
+   .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;                                                                                                                                                                                                                                                                
+  }
+  
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: red;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

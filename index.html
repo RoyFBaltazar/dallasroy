@@ -4,32 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Portfolio</title>
    <link rel="stylesheet" type= "text/css" href="/csss/style.css">
 </head>
 <header> <div class="myheader">
     <h1>Roy Baltazar</h1>                    
-    <!-- img next to name-->
-    <img src="" alt="Profile Photo">
-    <!--nav will have anchor tags to about me and resumer-->
-    <nav>
-    <a href="#bottom">About Me</a> 
-    <a href="">Resume</a>
-    <a href="">Contact Me</a>
-</nav>
+    <!--img next to name-->
+    <div class="headerImg"> <img src="images/run1.jpg" alt="Profile Photo" height="150" width="150">
+    </div>
+</div>
+ <!--nav will have anchor tags to about me and resume-->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#myaboutme">About Me</a> 
+    <a href="#myresume">Resume</a>
+    <div class="dropdown">
+      <button class="dropbtn">Contact me
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://www.linkedin.com/in/roy-baltazar-9b42a5228/">Linkedin</a>
+        <a href="https://github.com/RoyFBaltazar">GitHub</a>
+        
+      </div>
+    </div>
+  </div>
 </header>
-</div>
+
 <body>
-    <div class="firstimg"><img src="https://picsum.photos/200/300" alt="image of family" height="400" width="400"></div></p>
+    <div class="firstimg"><img src="images/family.JPG" alt="image of family" height="400" width="500"></div></p>
 </div>
-    <div class="myaboutme">
+    <div id="myaboutme">
     <!--nav will have anchor tags to about me and resumer -->
     <h2>About me</h2>
     <!-- short paragrah about me with an imagine floating to the right-->
     <p>I was raised in the Bronx, it was a challenging place to grow up in but I
         love it. I currently live in Queens, it is an amazing place with many enclaves
-        throughout the borough. My family immigrated from Mexico. I have two beautiful cats!
-<div class="myresume">
+        throughout the borough. I have two beautiful cats!
+<div id="myresume">
 <H2>Resume</H2> <br>
 <!-- resume will include work experince and education with order list-->
 <h3>Work Experince</h3>  
@@ -42,15 +54,15 @@
     
     <br>Administrative Assistant | Piel Canela Spa                                  04/2018 – 07/2021<br>
     Corona, NY<br>
-    Provided administrative support to 30+ employees by composing, editing, and distributing correspondence along with other departmental documents
+    Provided administrative support to employees by composing, editing, and distributing correspondence along with other departmental documents
     Greeted and directed appointments, vendors and office visitors
     Purchased and maintained sufficient office supply inventory in adherence to budgeting practices
     
- <h3>Education</h3> 
+ <h3>Education</h3>             		             		    
+<strong>Queens College,</strong> Flushing, NY
 Bachelor of Arts - Economics              		             		          09/2014 – 12/2016
-Queens College, Flushing, NY
-Associates - Business Administration		           		          09/2012 – 08/2014
-
+<BR><strong> LaGuardia Community College, Flushing, NY</strong>, Flushing, NY
+  Associates - Business Administration 09/2012 – 08/2014 
 </p>
 <aside> <div class="contactform"> <!--inclede a contact me directly form with button and text box --> <form action="">
 <h3>Contact Me Here</h3>
@@ -59,7 +71,7 @@ First Name: <br>
 Last Name: <br>
 <input type="text" name="lastname"><br>
 Email: <br>
-<input type="email" name="useremail" id="email"><br>
+<input type="email" name="useremail" id="email" required><br>
 Comment:<br>
 <textarea name= "comments" id="comments"></textarea><br>
 <input type="button" name="submit" value="submit">
@@ -72,6 +84,7 @@ Comment:<br>
 </body>
 <div class="myfooter">
 <footer>   <!-- contact info will be placed here including email and linkedin-->
-<a href="https://www.linkedin.com/in/roy-baltazar-9b42a5228/">Linkedin</a> </footer>
+<a href="https://www.linkedin.com/in/roy-baltazar-9b42a5228/">Linkedin</a>
+<a href="https://github.com/RoyFBaltazar">GitHub</a> </footer>
 </div>
 </html>
